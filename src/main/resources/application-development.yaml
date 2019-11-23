@@ -1,0 +1,14 @@
+debug: false
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kek
+    username: postgres
+    password: root
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+
+  main:
+    allow-bean-definition-overriding: true
